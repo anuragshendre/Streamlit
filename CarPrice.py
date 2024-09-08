@@ -1,7 +1,5 @@
 import pandas as pd
 import streamlit as st
-import datetime
-import sklearn
 import pickle
 
 cars_df = pd.read_csv("./Cars_price.csv")
