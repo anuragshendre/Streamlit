@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import sklearn as sk
 import pickle
 
 cars_df = pd.read_csv("./Cars_price.csv")
